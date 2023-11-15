@@ -55,5 +55,24 @@ a {
 }
 
 .placeholder-txt {
+	background: rgba(76, 99, 175, 0.1);
+	padding: 5px 0px;
 	text-align: center;
+}
+
+.link-icon:before {
+	display: inline-block;
+	margin: 0 3px 0 10px;
+	width: 16px;
+	height: 16px;
+	content: " ";
+	background-size: 100%;
+}
+
+a[href*='discord.gg']:before {
+	background: url("/images/BKEYG0.png") no-repeat 0 0px;
+}
+
+a[href*='github.com']:before {
+	background: url("/images/github-mark-white.png") no-repeat 0 0;
 }
