@@ -11,10 +11,14 @@
 	src: local("DotGothic16"), url("/fonts/DotGothic16-Regular.ttf") format("opentype");
 }
 
+html {
+	color: #eeeeee;
+	font-family: "DotGothic16", sans-serif;
+}
+
 /* Site Body Style Content */
 
 body {
-	color: #eeeeee;
 	background-color: #121212;
 	background-image: url("/images/SKYSPACE.png");
 	background-size: 1024px 512px;
@@ -91,7 +95,6 @@ a[href*='moddb.com']:before {
 	max-height: 320px;
 	max-width: 400px;
 	width: 50%;
-	font-family: "DotGothic16", sans-serif;
 }
 
 .placeholder-subtitle {
