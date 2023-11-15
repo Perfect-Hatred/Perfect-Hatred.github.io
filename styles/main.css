@@ -1,11 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=DotGothic16');
+/* System Style Content */
 
 :root {
 	color-scheme: dark;
 }
 
+@font-face {
+	font-family: 'DotGothic16';
+	font-style: normal;
+	font-weight: 400;
+	src: local("DotGothic16"), url("/fonts/DotGothic16-Regular.ttf") format("truetype");
+}
+
+/* Site Body Style Content */
+
 body {
-	color: #eee;
+	color: #eeeeee;
 	background-color: #121212;
 	background-image: url("/images/SKYSPACE.png");
 	background-size: 1024px 512px;
@@ -27,37 +36,18 @@ body {
 }
 
 @-webkit-keyframes slidein {
-from {background-position: 0px 0px;}
-to {background-position: 1024px 2048px;}
+	from {background-position: 0px 0px;}
+	to {background-position: 1024px 2048px;}
 }
 
 @keyframes slidein {
-from {background-position: 0px 0px;}
-to {background-position: 1024px 2048px;}
+	from {background-position: 0px 0px;}
+	to {background-position: 1024px 2048px;}
 
 }
 
 a {
 	color: #809fff;
-}
-
-.placeholder {
-	display: block;
-	margin: 10px auto;
-	max-height: 320px;
-	max-width: 400px;
-	width: 50%;
-	font-family: "DotGothic16", sans-serif;
-}
-
-.placeholder-subtitle {
-	font-size: 200%;
-}
-
-.placeholder-txt {
-	background: rgba(76, 99, 175, 0.1);
-	padding: 5px 0px;
-	text-align: center;
 }
 
 a[href*='discord.gg']:before {
@@ -91,4 +81,25 @@ a[href*='moddb.com']:before {
 	height: 16px;
 	content: " ";
 	background-size: 100%;
+}
+
+/* Placeholder Style Content */
+
+.placeholder {
+	display: block;
+	margin: 10px auto;
+	max-height: 320px;
+	max-width: 400px;
+	width: 50%;
+	font-family: "DotGothic16", sans-serif;
+}
+
+.placeholder-subtitle {
+	font-size: 200%;
+}
+
+.placeholder-txt {
+	background: rgba(76, 99, 175, 0.1);
+	padding: 5px 0px;
+	text-align: center;
 }
