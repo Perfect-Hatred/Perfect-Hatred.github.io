@@ -43,7 +43,7 @@ a {
 
 .placeholder {
 	display: block;
-	margin: 2.5% auto;
+	margin: 10px auto;
 	max-height: 320px;
 	max-width: 400px;
 	width: 50%;
@@ -86,7 +86,7 @@ a[href*='moddb.com']:before {
 	background: url("/images/icons/moddb_spanner.png") no-repeat 0 0;
 	display: inline-block;
 	/* margin: 0 5px 0 9px; */
-	margin: 0 5px 0 0px;
+	margin: 0 5px 0 0;
 	width: 9px;
 	height: 16px;
 	content: " ";
