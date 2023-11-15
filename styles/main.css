@@ -60,19 +60,35 @@ a {
 	text-align: center;
 }
 
-.link-icon:before {
+a[href*='discord.gg']:before {
+	background: url("/images/icons/BKEYG0.png") no-repeat 0 0;
 	display: inline-block;
-	margin: 0 3px 0 10px;
+	/* margin: 0 5px 0 16px; */
+	margin: 0 5px 0 0;
+	width: 12px;
+	height: 16px;
+	content: " ";
+	background-size: 100%;
+}
+
+a[href*='github.com']:before {
+	background: url("/images/icons/github-mark-white.png") no-repeat 0 0;
+	display: inline-block;
+	/* margin: 0 5px 0 16px; */
+	margin: 0 5px 0 0;
 	width: 16px;
 	height: 16px;
 	content: " ";
 	background-size: 100%;
 }
 
-a[href*='discord.gg']:before {
-	background: url("/images/BKEYG0.png") no-repeat 0 0px;
-}
-
-a[href*='github.com']:before {
-	background: url("/images/github-mark-white.png") no-repeat 0 0;
+a[href*='moddb.com']:before {
+	background: url("/images/icons/moddb_spanner.png") no-repeat 0 0;
+	display: inline-block;
+	/* margin: 0 5px 0 9px; */
+	margin: 0 5px 0 0px;
+	width: 9px;
+	height: 16px;
+	content: " ";
+	background-size: 100%;
 }
