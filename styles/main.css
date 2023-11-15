@@ -8,7 +8,7 @@
 	font-family: 'DotGothic16';
 	font-style: normal;
 	font-weight: 400;
-	src: local("DotGothic16"), url("/fonts/DotGothic16-Regular.ttf") format("truetype");
+	src: local("DotGothic16"), url("/fonts/DotGothic16-Regular.ttf") format("opentype");
 }
 
 /* Site Body Style Content */
