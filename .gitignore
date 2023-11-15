@@ -1,0 +1,8 @@
+# directory: ignore all temp files
+temp/
+
+# directory: ignore vscode history files
+.history/
+
+# files: ignored
+*.log
