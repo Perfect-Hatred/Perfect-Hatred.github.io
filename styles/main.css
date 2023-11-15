@@ -48,6 +48,12 @@ a {
 	max-width: 400px;
 	width: 50%;
 	font-family: "DotGothic16", sans-serif;
+}
+
+.placeholder-subtitle {
 	font-size: 200%;
+}
+
+.placeholder-txt {
 	text-align: center;
 }
