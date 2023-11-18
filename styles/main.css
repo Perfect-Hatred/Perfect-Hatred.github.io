@@ -14,11 +14,8 @@
 html {
 	color: #eeeeee;
 	font-family: "DotGothic16", sans-serif;
-}
 
-/* Site Body Style Content */
-
-body {
+	background-attachment: fixed;
 	background-color: #121212;
 	background-image: url("/images/SKYSPACE.png");
 	background-size: 1024px 512px;
@@ -36,7 +33,7 @@ body {
 	animation-iteration-count: infinite;
 
 	-webkit-animation-timing-function: linear;
-	animation-timing-function: linear;             
+	animation-timing-function: linear;   
 }
 
 @-webkit-keyframes slidein {
@@ -47,8 +44,46 @@ body {
 @keyframes slidein {
 	from {background-position: 0px 0px;}
 	to {background-position: 1024px 2048px;}
-
 }
+
+/* Phobos and Deimos */
+
+.deimos,
+.phobos {
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: fixed;
+}
+
+.deimos {
+	background-image: url("/images/PHBSB0.png");
+	background-position: right bottom;
+	bottom: -webkit-calc(-10% + 25px);
+	bottom: calc(-10% + 25px);
+	left: -webkit-calc(-5% - 15px);
+	left: calc(-5% - 15px);
+	height: 558px;
+	max-height: 67.5%;
+	width: 588px;
+	max-width: 45%;
+	z-index: -99;
+}
+
+.phobos {
+	background-image: url("/images/PHBSA0.png");
+	background-position: left bottom;
+	bottom: -webkit-calc(+7.5% - 15px);
+	bottom: calc(+7.5% - 15px);
+	right: -webkit-calc(-5% + 15px);
+	right: calc(-5% + 15px);
+	height: 446px;
+	max-height: 45%;
+	width: 486px;
+	max-width: 30%;
+	z-index: -89;
+}
+
+/* Site Body Style Content */
 
 a {
 	color: #809fff;
