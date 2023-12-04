@@ -30,6 +30,7 @@
     <meta name="description" content="Perfect Hatred, the home of Brutal Doom Platinum">
     <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/tooltip.css">
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -38,6 +39,9 @@
 
     <div class="deimos"></div>
     <div class="phobos"></div>
+
+
+    <!-- Page Content Begins Here-->
     
     <div>
       <img src="/images/bdp4logo.png" alt="Brutal Doom Platinum logo" class="placeholder">
@@ -63,6 +67,18 @@
       </div>
     </div>
 
+    <!-- Page Content Ends Here-->
+
+    
+    <div id="footer">
+      <span tooltip="Site Design by FelesNoctis">
+        &copy; 2021-<span id="copyright"></span> Perfect Hatred
+      </span>
+    </div>
+
+    <script>
+      document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+    </script>
     <!-- <script src="" async defer></script> -->
   </body>
 </html>

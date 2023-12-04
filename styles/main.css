@@ -46,6 +46,22 @@ html {
 	to {background-position: 1024px 2048px;}
 }
 
+body {
+	padding-bottom: 20px;
+}
+
+#footer {
+	background: rgba(76, 99, 175, 0.1);
+	bottom: 0px;
+	box-sizing: border-box;
+	height: 20px;
+	padding: 0 10px 2px 0px;
+	position: fixed;
+	text-align: right;
+	width: 100%;
+	z-index: 50;
+}
+
 /* Phobos and Deimos */
 
 .deimos,
