@@ -21,22 +21,32 @@ html {
 	background-size: 1024px 512px;
 
 	-webkit-animation-name: slidein;
+	-moz-animation-name: slidein;
 	animation-name: slidein;
 
 	-webkit-animation-duration: 240s;
+	-moz-animation-duration: 240s;
 	animation-duration: 480s;
 
 	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
 	animation-fill-mode: both;
 
 	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 
 	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
 	animation-timing-function: linear;   
 }
 
 @-webkit-keyframes slidein {
+	from {background-position: 0px 0px;}
+	to {background-position: 1024px 2048px;}
+}
+
+@-moz-keyframes slidein {
 	from {background-position: 0px 0px;}
 	to {background-position: 1024px 2048px;}
 }
@@ -46,8 +56,12 @@ html {
 	to {background-position: 1024px 2048px;}
 }
 
+* {
+	box-sizing: border-box;
+}
+
 body {
-	padding-bottom: 20px;
+	margin: 20px;
 }
 
 #footer {
@@ -55,12 +69,19 @@ body {
 	bottom: 0px;
 	box-sizing: border-box;
 	height: 20px;
+	left: 0;
 	padding: 0 10px 2px 0px;
 	position: fixed;
 	text-align: right;
 	width: 100%;
 	z-index: 50;
 }
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+ }
 
 /* Phobos and Deimos */
 
@@ -75,8 +96,10 @@ body {
 	background-image: url("/images/PHBSB0.png");
 	background-position: right bottom;
 	bottom: -webkit-calc(-15% + 25px);
+	bottom: -moz-calc(-15% + 25px);
 	bottom: calc(-15% + 25px);
 	left: -webkit-calc(-10% - 15px);
+	left: -moz-calc(-10% - 15px);
 	left: calc(-10% - 15px);
 	height: 100%;
 	max-height: 67.5%;
@@ -89,8 +112,10 @@ body {
 	background-image: url("/images/PHBSA0.png");
 	background-position: left bottom;
 	bottom: -webkit-calc(+7.5% - 15px);
+	bottom: -moz-calc(+7.5% - 15px);
 	bottom: calc(+7.5% - 15px);
 	right: -webkit-calc(-5% + 15px);
+	right: -moz-calc(-5% + 15px);
 	right: calc(-5% + 15px);
 	height: 100%;
 	max-height: 45%;
@@ -138,7 +163,63 @@ a[href*='moddb.com']:before {
 	background-size: 100%;
 }
 
+#main_container {
+	width: 100%;
+	max-width: 984px; /* Consistency: 1024 - 20 l.margin - 20 r.margin */
+	margin: auto;
+	overflow: auto;
+}
+
+#main_container > .mainheader > .logo,
+#main_container > .mainheader > .menu {
+    float: left;
+	overflow: hidden;
+}
+
+#main_container > .mainheader > .logo {
+	text-align: center;
+	vertical-align: middle;
+	height: 20%;
+	width: 20%;
+	max-height: 20%;
+	max-width: 20%;
+}
+
+#main_container > .mainheader > .menu {
+	width: 80%;
+	max-width: 80%;
+}
+
+#main_container > .mainheader img {
+	display: block;
+	margin: auto;
+	height: auto;
+	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.menuop {
+	float: left;
+	width: 50%;
+}
+
+.menuop:hover {
+	background: url("/images/menu/M_SKULL.gif") no-repeat 0 0;
+	background-size: 24%;
+	display: inline-block;
+}
+
 /* Placeholder Style Content */
+
+#main_container, 
+#main_container * {
+	/* background: rgba(76, 99, 175, 0.2); */
+}
+
+.menu {
+	/* border: 2px solid red; */
+}
 
 .placeholder {
 	display: block;
@@ -150,6 +231,7 @@ a[href*='moddb.com']:before {
 
 .placeholder-subtitle {
 	font-size: 200%;
+	margin-top: 100px;
 }
 
 .placeholder-txt {
