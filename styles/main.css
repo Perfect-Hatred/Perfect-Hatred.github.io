@@ -38,7 +38,7 @@ html {
 
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
-	animation-timing-function: linear;   
+	animation-timing-function: linear;
 }
 
 @-webkit-keyframes slidein {
@@ -58,6 +58,7 @@ html {
 
 * {
 	box-sizing: border-box;
+	cursor:url("/images/DOOMCURS.png"),auto;
 }
 
 body {
