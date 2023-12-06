@@ -131,7 +131,7 @@ a {
 	color: #809fff;
 }
 
-a[href*='discord.gg']:before {
+a[href*='discord.gg']::before {
 	background: url("/images/icons/BKEYG0.png") no-repeat 0 0;
 	display: inline-block;
 	/* margin: 0 5px 0 16px; */
@@ -142,7 +142,7 @@ a[href*='discord.gg']:before {
 	background-size: 100%;
 }
 
-a[href*='github.com']:before {
+a[href*='github.com']::before {
 	background: url("/images/icons/github-mark-white.png") no-repeat 0 0;
 	display: inline-block;
 	/* margin: 0 5px 0 16px; */
@@ -153,7 +153,7 @@ a[href*='github.com']:before {
 	background-size: 100%;
 }
 
-a[href*='moddb.com']:before {
+a[href*='moddb.com']::before {
 	background: url("/images/icons/moddb_spanner.png") no-repeat 0 0;
 	display: inline-block;
 	/* margin: 0 5px 0 9px; */
@@ -184,6 +184,14 @@ a[href*='moddb.com']:before {
 	width: 20%;
 	max-height: 20%;
 	max-width: 20%;
+}
+
+.menu::before {
+	content: url("/images/menu/M_SKULL.gif");
+	position: absolute;
+	top: -9999rem;
+	left: -9999rem;
+	opacity: 0;
 }
 
 #main_container > .mainheader > .menu {
