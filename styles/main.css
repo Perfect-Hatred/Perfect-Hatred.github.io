@@ -296,11 +296,12 @@ h1 {
 
 .ytembedwrapper {
 	width: 100%;
+	border-bottom-width: 2px;
 }
 
 .ytembedparent {
 	position: relative;
-	padding-bottom: 56%;
+	padding-bottom: 60%;
 	height: 0px;
 }
 
