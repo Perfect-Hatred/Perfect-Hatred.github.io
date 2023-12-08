@@ -66,16 +66,29 @@ body {
 }
 
 #footer {
-	background: rgba(76, 99, 175, 0.1);
+	background: rgba(15, 20, 36, .5);
 	bottom: 0px;
 	box-sizing: border-box;
 	height: 20px;
 	left: 0;
-	padding: 0 10px 2px 0px;
+	padding: 0 0px 2px 0px;
 	position: fixed;
-	text-align: right;
 	width: 100%;
-	z-index: 50;
+	z-index: 10;
+}
+
+#footer .copyrightfoot {
+	float: right;
+	padding: 0 10px 0 0;
+	width: 50%;
+	text-align: right;
+}
+
+#footer .discordfoot {
+	float: left;
+	padding: 0 0 0 10px;
+	width: 50%;
+	text-align: left;
 }
 
 .clearfix::after {
@@ -164,6 +177,44 @@ a[href*='moddb.com']::before {
 	background-size: 100%;
 }
 
+h1 {
+	margin: 0.33em 0px;
+	text-align: center;
+}
+
+/* img {
+	margin: auto;
+	height: auto;
+	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+ */
+
+.cap50 {
+	width: 50%;
+	max-width: 50%;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+.floatleft {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.floatright {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.rembotmargin {
+	margin-bottom: 0;
+}
+
+.remtopmargin {
+	margin-top: 0;
+}
+
 #main_container {
 	width: 100%;
 	max-width: 984px; /* Consistency: 1024 - 20 l.margin - 20 r.margin */
@@ -213,10 +264,38 @@ a[href*='moddb.com']::before {
 	width: 50%;
 }
 
-.menuop:hover {
+#main_container .menuop:hover {
 	background: url("/images/menu/M_SKULL.gif") no-repeat 0 0;
 	background-size: 24%;
 	display: inline-block;
+}
+
+#main_container #pagecontent_container {
+	margin: 10px 0;
+}
+
+#main_container .pagecontent {
+	background: rgba(15, 20, 36, .5);
+	border: 2px solid red;
+	margin: 10px 0;
+	padding: 10px;
+	/* border-radius: 10px; */
+}
+
+.downloadmain {
+	text-align: center;
+}
+
+.downloadimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	max-width: 317px;
+}
+
+.pagecontent > .downloadmain > a::before {
+	display: none;
 }
 
 /* Placeholder Style Content */
@@ -224,10 +303,6 @@ a[href*='moddb.com']::before {
 #main_container, 
 #main_container * {
 	/* background: rgba(76, 99, 175, 0.2); */
-}
-
-.menu {
-	/* border: 2px solid red; */
 }
 
 .placeholder {
