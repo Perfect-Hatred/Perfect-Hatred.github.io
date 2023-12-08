@@ -294,6 +294,11 @@ h1 {
 	max-width: 317px;
 }
 
+.ytembed {
+	width: 100%;
+	height: auto;
+}
+
 .pagecontent > .downloadmain > a::before {
 	display: none;
 }
