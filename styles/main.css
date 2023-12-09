@@ -188,6 +188,17 @@ a[href*='zdoom.org']::before {
 	background-size: 100%;
 }
 
+.version::after {
+	background: url("https://img.shields.io/github/v/release/EmeraldCoasttt/BrutalDoomPlatinum?style=flat-square&label=%20&color=red") no-repeat 0 0;
+	display: inline-block;
+	/* margin: 0 5px 0 9px; */
+	margin: 0 0 0 10px;
+	width: 35px;
+	height: 20px;
+	content: " ";
+	background-size: 100%;
+}
+
 h1 {
 	margin: 0.33em 0px;
 	text-align: center;
