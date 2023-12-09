@@ -348,14 +348,14 @@ h1 {
 
 .creditstable {
 	border-spacing: 1em 0.6em;
-	font-size: 0.75em;
+	font-size: 0.75rem;
 	width: 100%;
 	max-width: 100%;
 }
 
 .creditstable th {
 	border-bottom: 1px solid red;
-	font-size: 1em;
+	font-size: 1rem;
 	padding: 1.33em 0 0.6em;
 }
 
@@ -376,20 +376,20 @@ h1 {
 }
 
 .creditstitle {
-	font-size: 0.5em;
+	font-size: 0.5rem;
 	font-style: italic;
 	font-weight: normal;
 }
 
 @media only screen and (min-width: 1081px) {
 	.creditstable {
-		font-size: 1em;
+		font-size: 1rem;
 	}
 	.creditstable th {
-		font-size: 1.25em;
+		font-size: 1.25rem;
 	}
 	.creditstitle {
-		font-size: 0.75em;
+		font-size: 0.75rem;
 		font-style: italic;
 		font-weight: normal;
 	}
