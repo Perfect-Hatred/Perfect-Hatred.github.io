@@ -1,0 +1,293 @@
+EmeraldCoasttt
+Current Lead Developer
+
+Dox778
+Original Lead Developer
+
+Craneo
+<b>Graphics:</b> Improved Frozen Railgun, new dual flamecannon, pipebomb, skull key variations
+
+Mechanical Sanity
+<b>Code:</b> Multiple bug fixes, first person legs, improved code, fixing janitor, double jump, enemy roll, ACS Scripts, better ADS system, improvements to deflectable revenant projectiles, perfected ledge climbing code, revenant jetpack, laser guided missiles
+
+nemesisVampy
+<b>Code:</b> MES overhauls, improved testmap, menus, and weapon pickup system
+
+sulflix
+<b>Sounds:</b> ASG select/reload, SMG reload, Railgun reload/inspect, slug shells fire, minigun ammo belt inserting, nailgun alt fire, axe attack, silenced pistol, plasma cells pickup, machinegun belt sound, new BFG10k, Spider Mastermind's firing, frozen railgun primary fire, dragon breath SSG
+
+TrashMarine
+<b>Sounds:</b> Nailgun reloading smoke
+
+
+
+
+
+Sergeant_Mark_IV
+Brutal Doom v21
+<b>Graphics:</b> Frozen railgun muzzle flashes, new plasmagun muzzle flashes
+
+Brutal Doom: Schism Team
+<b>Code:</b> Cleaner variation code for weapons
+
+Brutal Doom v19: Sperglord Edition
+<b>Sounds:</b> BFG firing
+
+Project Brutality Team
+<b>Code:</b> Original first person legs code, laser guided missiles
+<b>Graphics:</b> floor/ceiling ice shard
+<b>Sounds:</b> Revenant's missile launcher/Flamecannon pickup/select
+
+
+
+
+
+
+Agent_Ash (aka Jekyll Grim Payne)
+<b>Code:</b> help with ledge grabbing, weapons always bobbing.
+
+AzoNa
+<b>Graphics:</b> Polished SSG sprites
+
+Bermanator
+<b>Sounds:</b> Hand grenade explosion, secret grenade throw, MP40 firing, BFG10k idle
+
+Bjecinst
+<b>Graphics:</b> Tpose Marine
+
+BLOODWOLF333
+<b>Code:</b> Some bugfixes, friendly marine code, improved MES
+
+Blue Shadow
+<b>Graphics:</b> Doom 3 keycard variations
+
+Bravo
+<b>Graphics:</b> Stalagtite variation
+
+Captain Toenail
+<b>Graphics:</b> Extra marine corpse
+
+Clonehunter 
+<b>Graphics:</b> Impaled marine helmet on a spike decoration
+
+&#388;arge&trade;
+<b>Graphics:</b> Dual flamecannon sprites
+
+DarthSeeth
+<b>Graphics:</b> Extra marine corpses edits
+
+Dissy EX
+<b>Sounds:</b> Rocket bounce, fist wall impact, ASG fire and select, new Freeze grenade, new multiple pickup, energy ball bounce, mancubus' flamecannon, weapon foley, void grenade
+
+Dodopod
+<b>Code:</b> Six Degrees Of Freedom
+
+Dogelord
+<b>Sounds:</b> Contributing to the LMG firing, enemy kick variation, axe spinning in the air, nailgun reload
+
+DoomNukem
+<b>Graphics:</b> New minigun base
+
+Farhan
+<b>Graphics:</b> Improved dual pistols and reload
+
+fireenmob72
+<b>Graphics:</b> Improved shotgun pump sprites
+<b>Sounds:</b> Providing multiple effects
+
+Freedoom Team
+<b>Graphics:</b> Keycard variation
+
+Frosted_Moontips
+<b>Graphics:</b> STARTUP Logo
+
+gordo.n
+<b>Code:</b> Ceiling climbing imps addon and code
+
+Grey_Wolf
+<b>Code:</b> Insult mugshots ACS scripts
+
+Iamcarrotmaster
+<b>Graphics:</b> New BFG10k base
+
+IDDQD_1337
+<b>Code:</b> Railgun ammo counter
+<b>Graphics:</b> Further improved to the shotgun sprites, polished SSG sprites, knuckle crack sprites
+
+ikdfa
+<b>Code:</b> Smooth dual weapon switch
+<b>Sounds:</b> Pistol inspect
+
+Iknowhowtomap (Gorman Freebmane)
+<b>Graphics:</b> Base frozen railgun, switching firemodes animation, pinned imp
+<b>Sounds:</b> Frozen railgun alt fire, inspect knocks, part of the exploding frozen barrel
+
+ItsNatureToDie (aka David G)
+<b>Graphics:</b> New imp death, dead marine variations
+
+Ivory Duke
+<b>Code:</b> Zmovement (ledge climb)
+
+JMartinez2098
+<b>Graphics:</b> Improved shotgun pump sprites, improved Unmaker pickup
+
+JoeyTD
+<b>Graphics:</b> Vanilla As Fuck mod (chainsaw rotations)
+
+Kinsie
+<b>Graphics:</b> Female marine, crouching zombies
+
+LandyRS
+<b>Sounds:</b> Miscillaneous voices, Energy Shield, Unmaker teleport
+
+Lewisk3
+<b>Code:</b> Vehicles
+
+McKase
+<b>Code:</b> Some bugfixes, friendly marine code, improved MES
+
+Mryayayify
+<b>Graphics:</b> Uppercut with knuckle duster
+
+Nash Muhandes
+<b>Code:</b> Tilt++
+
+NeoWorm
+<b>Graphics:</b> New Axe
+
+OSJCLATCHFORD
+<b>Graphics:</b> Key variations
+
+perkristian
+<b>Sounds:</b> Arachnotron's firing
+
+Popguy12
+<b>Graphics:</b> Nail 3D model
+
+Scotty
+<b>Code:</b> Laser guided missiles
+
+SchrdingCat
+<b>Code:</b> Cat's Frozen Addon (Improved frozen monsters code, weakened monsters)
+<b>Graphics:</b> Cat's Frozen Addon (Frozen monsters, gibs, effects)
+<b>Sounds:</b> Cat's Frozen Addon (freezing, frozen monsters struggling)
+
+Sechtera
+<b>General:</b> Listening to Dox brag about new addon's features despite not playing Doom.
+<b>Graphics:</b> improved railgun and nailgun firing frames (+ brightmaps), pistol silencer, improved BFG10k glows, new grenade missiles and being awesome uwu
+
+Skulltag 
+<b>Graphics:</b> Additional impaled marines gore
+
+Squig
+<b>Graphics:</b> Stained fists and boots, new shotgun, new machinegun, new flamecannon fire frames, soap sprite, help with grenade box, mugshots deaths, brightmaps, Nailgun barrel and magazine, bloody axe variations, angled machinegun firing frames, ASG pickup sprite
+<b>Sounds:</b> Contributing to the LMG firing, grenade launcher fire, ASG inspect
+
+StalkerZHS
+<b>Graphics:</b> Better mugshots
+
+TehRealSalt
+<b>Code:</b> New blursphere code
+
+The Almighty Egg
+<b>Sounds:</b> Providing HD sounds for megasphere, rifle reload, chainsaw idle.
+
+TheDoomedArchvile
+<b>Graphics:</b> Floating eye
+
+The Innocent Crew (OBTIC.WAD)
+<b>Graphics:</b> Extra marine corpse
+
+Theundeadsoldier
+<b>Graphics:</b> Better pistol zombieman
+
+Tomtefar1988
+<b>Graphics:</b> Improved shotgun pump sprites, polished SSG sprites
+
+TypicalSF
+<b>Graphics:</b> Dual rifle sprites, better firing frames for multiple weapons, a lot of brightmaps, new grenade launcher, new ASG, frozen railgun muzzle flashes, new plasmagun muzzle flashes
+
+Ultra-Violence
+<b>Graphics:</b> New BFG10k base
+
+Vader
+<b>Graphics:</b> Baron and hellknight new deaths
+
+Vostyok 
+<b>Graphics:</b> Rusty explosive barrel
+
+Wafer
+<b>Graphics:</b> Brightmap automation <3
+
+Warry#6969
+<b>Sounds:</b> new shell insertion sounds
+
+WolVexus
+<b>Sounds:</b> Hand grenade explosion, secret grenade throw, MP40 firing, BFG10k idle
+
+Xamp
+<b>Graphics:</b> New shotgun pickups and resting dropped mags
+
+Xaser 
+<b>Graphics:</b> Nailgun projectile, new minigun base
+
+XV117
+<b>Code:</b> Original ledge climbing code and animations
+
+Z86 
+<b>Graphics:</b> Multiple missing brightmaps (cyberdemon, mastermind, pain elemental)
+
+
+
+
+
+Acclaim Entertainment and Probe Entertainment
+<b>Graphics:</b> Frozen railgun muzzle flashes, new plasmagun muzzle flashes
+
+Activision
+<b>Sounds:</b> new shell insertion sounds
+
+Call of Duty: Black Ops II (Treyarch, Activision)
+<b>Sounds:</b> Mancubus' flamecannon, new foley sounds
+
+CS:GO (Valve)
+<b>Sounds:</b> Rifle's inspect, new foley sounds
+
+Doom 3 (id Software, Activision)
+<b>Sounds:</b> Fist wall impact sounds, plasma grenade
+
+Doom Eternal (id Software, Bethesda Softworks)
+<b>Sounds:</b> Rocket bounce, fist wall impact, multiple new pickup, temporary weapon sounds, new freeze grenade, mancubus flamecannon, new foley sounds
+
+Halo: Combat Evolved (Bungie, Microsoft Game Studios)
+<b>Sounds:</b> Needler
+
+Halo 4 (343 Industries, Microsoft Studios)
+<b>Sounds:</b> new freeze grenade, void grenade, new weapon foley sounds
+
+Halo: Reach (Bungie, Microsoft Game Studios)
+<b>Sounds:</b> Rocket bounce sound, new freeze grenade, motorcycle horn
+
+Metroid Prime 2: Echoes (Retro Studios, Nintendo)
+<b>Sounds:</b> Night vision, computer map, keycard pickup, new freeze grenade, void grenade sounds
+
+Painkiller Black (People Can Fly, Deep Silver)
+<b>Sounds:</b> Shotgun casings
+
+Paint.NET
+for NOT SAVING STUFF THE WAY ITS SUPPOSED TO
+
+Postal 2 (Running with Scissors, Whiptail Interactive)
+<b>Sounds:</b> Grenade launcher reload
+
+Quake 4 (id Software, Raven Software)
+<b>Sounds:</b> Nailgun firing effects
+
+Rock Raiders (Data Design Interactive, The Lego Group)
+<b>Sounds:</b> void grenade sounds
+
+Team Fortress 2 (Valve)
+<b>Sounds:</b> Flamecannon alt fire
+
+The General Series 6000 (Sound Ideas)
+<b>Sounds:</b> high quality rifle select

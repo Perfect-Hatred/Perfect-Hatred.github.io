@@ -155,7 +155,8 @@ a[href*='discord.gg']::before {
 	background-size: 100%;
 }
 
-a[href*='github.com']::before {
+a[href*='github.com']::before,
+a[href*='github.io']::before {
 	background: url("/images/icons/github-mark-white.png") no-repeat 0 0;
 	display: inline-block;
 	/* margin: 0 5px 0 16px; */
@@ -343,6 +344,35 @@ h1 {
 
 .pagecontent > .downloadmain > a::before {
 	display: none;
+}
+
+.creditstable {
+	border-spacing: 1em 0.6em;
+	width: 100%;
+	max-width: 100%;
+}
+
+.creditstable th {
+	border-bottom: 1px solid red;
+	font-size: 1.25em;
+	padding: 1.33em 0 0.6em;
+}
+
+.creditstable tr td:first-child {
+	font-weight: bold;
+	text-align: right;
+	width: 1%; /* Forcing minimum width for content */
+	word-wrap: normal;
+}
+
+.creditstable td, th {
+	vertical-align: top;
+}
+
+.creditstitle {
+	font-size: 0.75em;
+	font-style: italic;
+	font-weight: normal;
 }
 
 /* Placeholder Style Content */
