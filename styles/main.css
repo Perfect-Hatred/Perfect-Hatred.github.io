@@ -348,25 +348,26 @@ h1 {
 
 .creditstable {
 	border-spacing: 1em 0.6em;
+	font-size: 0.75em;
 	width: 100%;
 	max-width: 100%;
 }
 
 .creditstable th {
 	border-bottom: 1px solid red;
-	font-size: 1.25em;
+	font-size: 1em;
 	padding: 1.33em 0 0.6em;
 }
 
 .creditstable tr td:first-child {
 	font-weight: bold;
 	text-align: right;
-	width: 1%; /* Forcing minimum width for content */
+	width: 10%; /* Forcing minimum width for content */
 	word-wrap: normal;
 }
 
 .creditstable tr td:nth-child(2) {
-	width: 10%; /* Forcing maximum width for content */
+	width: 90%; /* Forcing maximum width for content */
 	word-wrap: break-word;
 }
 
@@ -375,9 +376,23 @@ h1 {
 }
 
 .creditstitle {
-	font-size: 0.75em;
+	font-size: 0.5em;
 	font-style: italic;
 	font-weight: normal;
+}
+
+@media only screen and (min-width: 1081px) {
+	.creditstable {
+		font-size: 1em;
+	}
+	.creditstable th {
+		font-size: 1.25em;
+	}
+	.creditstitle {
+		font-size: 0.75em;
+		font-style: italic;
+		font-weight: normal;
+	}
 }
 
 /* Placeholder Style Content */
