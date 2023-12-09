@@ -65,6 +65,11 @@ body {
 	margin: 20px;
 }
 
+img {
+	-ms-interpolation-mode: nearest-neighbor;
+	image-rendering: pixelated;
+}
+
 #footer {
 	background: rgba(15, 20, 36, .5);
 	bottom: 0px;
