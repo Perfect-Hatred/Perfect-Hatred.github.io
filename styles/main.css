@@ -365,6 +365,11 @@ h1 {
 	word-wrap: normal;
 }
 
+.creditstable tr td:nth-child(2) {
+	width: 10%; /* Forcing maximum width for content */
+	word-wrap: break-word;
+}
+
 .creditstable td, th {
 	vertical-align: top;
 }
