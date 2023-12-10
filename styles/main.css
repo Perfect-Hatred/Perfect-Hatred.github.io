@@ -304,10 +304,14 @@ h1 {
 	max-width: 100%;
 }
 
-img.halfwimg {
+.halfwimg {
 	width: 50% !important;
 	max-height: 50% !important;
 	max-width: 50% !important;
+}
+
+.floatequip {
+	float: left;
 }
 
 .menuop {
@@ -453,6 +457,14 @@ img.halfwimg {
 .datatable.features .slotline {
 	border-bottom: 1px solid red;
 	margin-bottom: 0.33em;
+	padding-bottom: 0.33em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.datatable.features .slotlinegren {
+	border-bottom: 1px solid red;
+	margin: 1em 0 0.33em;
 	padding-bottom: 0.33em;
 	font-style: italic;
 	font-weight: bold;
