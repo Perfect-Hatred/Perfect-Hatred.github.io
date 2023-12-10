@@ -294,7 +294,8 @@ h1 {
 	max-width: 80%;
 }
 
-#main_container > .mainheader img {
+#main_container > .mainheader img,
+.datatable.features tr > td:first-child img {
 	display: block;
 	margin: auto;
 	height: auto;
@@ -368,33 +369,33 @@ h1 {
 	display: none;
 }
 
-.creditstable {
+.datatable td, th {
+	vertical-align: top;
+}
+
+.datatable.credits {
 	border-spacing: 1em 0.6em;
 	font-size: 0.75rem;
 	width: 100%;
 	max-width: 100%;
 }
 
-.creditstable th {
+.datatable.credits th {
 	border-bottom: 1px solid red;
 	font-size: 1rem;
 	padding: 1.33em 0 0.6em;
 }
 
-.creditstable tr td:first-child {
+.datatable.credits tr td:first-child {
 	font-weight: bold;
 	text-align: right;
 	width: 10%; /* Forcing minimum width for content */
 	word-wrap: normal;
 }
 
-.creditstable tr td:nth-child(2) {
+.datatable.credits tr td:nth-child(2) {
 	width: 90%; /* Forcing maximum width for content */
 	word-wrap: break-word;
-}
-
-.creditstable td, th {
-	vertical-align: top;
 }
 
 .creditstitle {
@@ -403,17 +404,53 @@ h1 {
 	font-weight: normal;
 }
 
+.datatable.features {
+	border-spacing: 1em 1em;
+	font-size: 0.75rem;
+	width: 100%;
+	max-width: 100%;
+}
+
+.datatable.features th {
+	border-bottom: 1px solid red;
+	font-size: 1rem;
+	padding: 0.6em 0 0.6em;
+}
+
+.datatable.features tr td:first-child {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	word-wrap: normal;
+	width: 15%; /* Forcing minimum width for content */
+	padding: 0;
+}
+
+.datatable.features tr td:nth-child(2) {
+	width: 85%; /* Forcing maximum width for content */
+	word-wrap: break-word;
+}
+
+.datatable.features tr td:nth-child(2) p {
+	margin-bottom: 0;
+}
+
+
+.datatable.features tr > td:first-child img {
+	padding-top: 0.5em;
+}
+
 @media only screen and (min-width: 1081px) {
-	.creditstable {
+	.datatable.credits,
+	.datatable.features {
 		font-size: 1rem;
 	}
-	.creditstable th {
+	.datatable.credits th,
+	.datatable.features th {
 		font-size: 1.25rem;
 	}
 	.creditstitle {
 		font-size: 0.75rem;
-		font-style: italic;
-		font-weight: normal;
 	}
 }
 
