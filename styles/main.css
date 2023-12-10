@@ -383,7 +383,7 @@ h1 {
 .datatable.credits th {
 	border-bottom: 1px solid red;
 	font-size: 1rem;
-	padding: 1.33em 0 0.6em;
+	padding: 1.5em 0 0.6em;
 }
 
 .datatable.credits tr td:first-child {
@@ -405,7 +405,7 @@ h1 {
 }
 
 .datatable.features {
-	border-spacing: 1em 1em;
+	border-spacing: 1em 2em;
 	font-size: 0.75rem;
 	width: 100%;
 	max-width: 100%;
@@ -415,6 +415,10 @@ h1 {
 	border-bottom: 1px solid red;
 	font-size: 1rem;
 	padding: 0.6em 0 0.6em;
+}
+
+.datatable.features tr:first-child > th {
+	padding: 0 0 0.6em;
 }
 
 .datatable.features tr td:first-child {
@@ -438,6 +442,14 @@ h1 {
 
 .datatable.features tr > td:first-child img {
 	padding-top: 0.5em;
+}
+
+.datatable.features .slotline {
+	border-bottom: 1px solid red;
+	margin-bottom: 0.33em;
+	padding-bottom: 0.33em;
+	font-style: italic;
+	font-weight: bold;
 }
 
 @media only screen and (min-width: 1081px) {
