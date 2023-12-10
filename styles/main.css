@@ -452,6 +452,9 @@ h1 {
 	.creditstitle {
 		font-size: 0.75rem;
 	}
+	.mobilehidden {
+		display: none !important;
+	}
 }
 
 /* Placeholder Style Content */
