@@ -259,6 +259,9 @@ Doom 3 (id Software, Activision)
 Doom Eternal (id Software, Bethesda Softworks)
 <b>Sounds:</b> Rocket bounce, fist wall impact, multiple new pickup, temporary weapon sounds, new freeze grenade, mancubus flamecannon, new foley sounds
 
+GIMP
+for NOT UNDERSTANDING HOW TRANSPARENCY WORKS
+
 Halo: Combat Evolved (Bungie, Microsoft Game Studios)
 <b>Sounds:</b> Needler
 

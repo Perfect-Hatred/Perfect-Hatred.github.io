@@ -304,6 +304,12 @@ h1 {
 	max-width: 100%;
 }
 
+img.halfwimg {
+	width: 50% !important;
+	max-height: 50% !important;
+	max-width: 50% !important;
+}
+
 .menuop {
 	float: left;
 	width: 50%;
